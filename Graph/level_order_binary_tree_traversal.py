@@ -79,6 +79,7 @@ printLevelorder(tree)
     c) Dequeue a node from q and assign it's value to temp_node
 
 Time Complexity? O(n) <- n are the number of nodes in tree
+Space Complexity? O(n) <- n are the number of nodes in tree (stored in queue)
 '''
 
 def printLevelOrder2(root):
